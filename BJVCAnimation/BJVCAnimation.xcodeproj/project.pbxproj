@@ -15,6 +15,9 @@
 		49DA1A931BE2485A002E3D3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DA1A911BE2485A002E3D3B /* LaunchScreen.storyboard */; };
 		49DA1A9E1BE2485A002E3D3B /* BJVCAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA1A9D1BE2485A002E3D3B /* BJVCAnimationTests.m */; };
 		49DA1AA91BE2485A002E3D3B /* BJVCAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA1AA81BE2485A002E3D3B /* BJVCAnimationUITests.m */; };
+		49DA1AB81BE24B08002E3D3B /* PanTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA1AB71BE24B08002E3D3B /* PanTransition.m */; settings = {ASSET_TAGS = (); }; };
+		49DA1ABB1BE25057002E3D3B /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA1ABA1BE25057002E3D3B /* ModelViewController.m */; settings = {ASSET_TAGS = (); }; };
+		49DA1AC11BE254AB002E3D3B /* NormalAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA1AC01BE254AB002E3D3B /* NormalAnimation.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		49DA1AA41BE2485A002E3D3B /* BJVCAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJVCAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DA1AA81BE2485A002E3D3B /* BJVCAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJVCAnimationUITests.m; sourceTree = "<group>"; };
 		49DA1AAA1BE2485A002E3D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49DA1AB61BE24B08002E3D3B /* PanTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanTransition.h; sourceTree = "<group>"; };
+		49DA1AB71BE24B08002E3D3B /* PanTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanTransition.m; sourceTree = "<group>"; };
+		49DA1AB91BE25057002E3D3B /* ModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
+		49DA1ABA1BE25057002E3D3B /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
+		49DA1ABF1BE254AB002E3D3B /* NormalAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalAnimation.h; sourceTree = "<group>"; };
+		49DA1AC01BE254AB002E3D3B /* NormalAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				49DA1A871BE2485A002E3D3B /* AppDelegate.m */,
 				49DA1A891BE2485A002E3D3B /* ViewController.h */,
 				49DA1A8A1BE2485A002E3D3B /* ViewController.m */,
+				49DA1AB91BE25057002E3D3B /* ModelViewController.h */,
+				49DA1ABA1BE25057002E3D3B /* ModelViewController.m */,
+				49DA1AB61BE24B08002E3D3B /* PanTransition.h */,
+				49DA1AB71BE24B08002E3D3B /* PanTransition.m */,
+				49DA1ABF1BE254AB002E3D3B /* NormalAnimation.h */,
+				49DA1AC01BE254AB002E3D3B /* NormalAnimation.m */,
 				49DA1A8C1BE2485A002E3D3B /* Main.storyboard */,
 				49DA1A8F1BE2485A002E3D3B /* Assets.xcassets */,
 				49DA1A911BE2485A002E3D3B /* LaunchScreen.storyboard */,
@@ -270,8 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49DA1AB81BE24B08002E3D3B /* PanTransition.m in Sources */,
+				49DA1ABB1BE25057002E3D3B /* ModelViewController.m in Sources */,
 				49DA1A8B1BE2485A002E3D3B /* ViewController.m in Sources */,
 				49DA1A881BE2485A002E3D3B /* AppDelegate.m in Sources */,
+				49DA1AC11BE254AB002E3D3B /* NormalAnimation.m in Sources */,
 				49DA1A851BE2485A002E3D3B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +514,7 @@
 				49DA1AAF1BE2485A002E3D3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49DA1AB01BE2485A002E3D3B /* Build configuration list for PBXNativeTarget "BJVCAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +523,7 @@
 				49DA1AB21BE2485A002E3D3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49DA1AB31BE2485A002E3D3B /* Build configuration list for PBXNativeTarget "BJVCAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +532,7 @@
 				49DA1AB51BE2485A002E3D3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
